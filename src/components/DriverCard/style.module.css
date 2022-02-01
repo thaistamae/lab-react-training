@@ -1,0 +1,38 @@
+.division{
+    display: flex;
+    background-color: #445cb4;
+    border-radius: 7px;
+    justify-content: center;
+    margin: 10px 10px;
+    color: white;
+}
+
+
+
+.photo{
+    padding: 20px 20px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text1{
+    font-size: 20px;
+    margin: 0 0;
+    padding: 0 0;
+    font-weight: 500;
+    
+}
+
+.text2{
+    font-size: 14px;
+    margin: 0 0;
+    padding: 0 0;
+    font-weight: 300;
+    
+}

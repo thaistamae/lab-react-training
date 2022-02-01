@@ -1,0 +1,12 @@
+.greetings{
+    margin: 10px 10px;
+    border: 2px solid black;
+    font-size: 20px;
+    
+}
+
+.text{
+    padding: 0 10px;
+    margin: 10px 0;
+    font-weight: 700;
+}
