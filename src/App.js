@@ -6,6 +6,15 @@ import { BoxColor } from './components/BoxColor/index.js';
 import { CreditCard } from './components/CreditCard/index.js';
 import { Rating } from './components/Rating/index.js';
 import { DriverCard } from './components/DriverCard/index.js';
+import { ClickablePicture } from './components/ClickablePicture/index.js';
+import { LikeButton } from './components/LikeButton/index.js';
+import { Dice } from './components/Dice/index.js';
+import { Carousel } from './components/Carousel/index.js';
+import { NumbersTable } from './components/NumbersTable/index';
+
+
+import AlemaoSemOculos from './assets/images/maxence.png';
+import AlemaoComOculos from './assets/images/maxence-glasses.png';
 
 function App() {
 
@@ -98,6 +107,28 @@ function App() {
             licensePlate: "BE33ER"
           }}
         />
+        
+        <LikeButton />
+
+        <ClickablePicture
+          img={AlemaoSemOculos}
+          imgClicked={AlemaoComOculos}
+        />
+
+        <Dice />
+
+        <Carousel
+          images={[
+            'https://randomuser.me/api/portraits/women/1.jpg',
+            'https://randomuser.me/api/portraits/men/1.jpg',
+            'https://randomuser.me/api/portraits/women/2.jpg',
+            'https://randomuser.me/api/portraits/men/2.jpg'
+          ]}
+        />
+
+        <NumbersTable limit={12} />        
+
+        
 
        </div>
   );

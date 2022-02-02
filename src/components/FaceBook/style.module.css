@@ -1,0 +1,17 @@
+.card{
+    margin: 10px 10px;
+    border: 2px solid black;
+    display:flex;
+    line-height: 0.5;
+    font-size: 20px;
+    
+}
+
+.firstSection{
+    padding: 10px 10px;
+    
+}
+
+img{
+    height: 200px;
+}
